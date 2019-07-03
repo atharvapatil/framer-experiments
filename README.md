@@ -8,4 +8,5 @@ You can find the collection of the final outputs on this [instagram account](htt
 
 ### 1. Simple Switch
 
-Using a React hook + useState props created a switch which turns on or off
+Using a React hook + useState props created a switch which turns on/off
+![Interaction video](https://media.giphy.com/media/UtmuJJzg5tlW25yIMu/giphy.gif)
