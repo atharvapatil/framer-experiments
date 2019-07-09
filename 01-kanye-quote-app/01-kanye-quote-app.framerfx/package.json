@@ -1,0 +1,21 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@framer/framer.device-hand-iphone-1": "^1.0.0",
+		"@framer/framer.device-hand-iphone-2": "^1.0.0",
+		"@framer/framer.device-skin-google-pixel-2-kinda-blue": "^1.0.0",
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "ae7299a5-4339-412d-961e-cb214a722410"
+	},
+	"author": "Atharva Patil",
+	"dependencies": {
+		"@framer/unsplash.unsplash": "^1.0.0"
+	}
+}
