@@ -1,0 +1,18 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.8"
+	},
+	"peerDependencies": {
+		"framer": "^1.0",
+		"react": "^16.8"
+	},
+	"framer": {
+		"id": "7857fd3a-3bf4-45aa-9d98-5d3192b72a69"
+	},
+	"author": "Atharva Patil",
+	"dependencies": {
+		"@framer/kasimir.iphone-x-kit": "^1.21.0"
+	}
+}
