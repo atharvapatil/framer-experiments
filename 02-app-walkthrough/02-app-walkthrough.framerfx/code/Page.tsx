@@ -1,8 +1,9 @@
 import * as React from "react"
-import { Override, Data } from "framer"
+import { Override, Data, Page } from "framer"
 
 const data = Data({
     currentPage: 0,
+    forwardtapped: false,
 })
 
 const variants = {
@@ -14,6 +15,20 @@ export function Page(): Override {
     return {
         onChangePage(currentPage) {
             data.currentPage = currentPage
+        },
+    }
+}
+
+export function forward(): Override {
+    return {
+        onChangePage(currentPage) {
+            data.currentPage = currentPage
+        },
+        onTap() {
+            data.forwardtapped = true
+            if (data.currentPage >= 0 && data.currentPage < 2) {
+                data.currentPage = data.currentPage + 1
+            }
         },
     }
 }
@@ -36,19 +51,6 @@ export function circle3(): Override {
     return {
         variants: variants,
         animate: data.currentPage === 2 ? "enabled" : "disabled",
-    }
-}
-
-export function forward(): Override {
-    return {
-        onChangePage(currentPage) {
-            data.currentPage = currentPage
-        },
-        onTap() {
-            if (data.currentPage >= 0 && data.currentPage < 2) {
-                data.currentPage = data.currentPage + 1
-            }
-        },
     }
 }
 
