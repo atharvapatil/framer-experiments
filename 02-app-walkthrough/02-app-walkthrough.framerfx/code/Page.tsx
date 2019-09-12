@@ -1,9 +1,8 @@
 import * as React from "react"
-import { Override, Data, Page } from "framer"
+import { Override, Data } from "framer"
 
 const data = Data({
     currentPage: 0,
-    forwardtapped: false,
 })
 
 const variants = {
@@ -22,10 +21,9 @@ export function Page(): Override {
 export function forward(): Override {
     return {
         onChangePage(currentPage) {
-            data.currentPage = currentPage
+            currentPage = data.currentPage
         },
         onTap() {
-            data.forwardtapped = true
             if (data.currentPage >= 0 && data.currentPage < 2) {
                 data.currentPage = data.currentPage + 1
             }

@@ -166,11 +166,16 @@
               "gap" : 0,
               "momentum" : false,
               "padding" : 0,
-              "paddingPerSide" : false
+              "paddingBottom" : 0,
+              "paddingLeft" : 0,
+              "paddingPerSide" : false,
+              "paddingRight" : 0,
+              "paddingTop" : 0,
+              "wheelEnabled" : false
             },
             "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/Page.tsx",
-            "codeOverrideIdentifier" : ".\/Page.tsx_Page",
+            "codeOverrideFile" : ".\/App.tsx",
+            "codeOverrideIdentifier" : ".\/App.tsx_Page",
             "codeOverrideName" : "Page",
             "constraintsLocked" : false,
             "deviceType" : null,
@@ -230,8 +235,8 @@
                 ],
                 "clip" : false,
                 "codeOverrideEnabled" : true,
-                "codeOverrideFile" : ".\/Page.tsx",
-                "codeOverrideIdentifier" : ".\/Page.tsx_circle1",
+                "codeOverrideFile" : ".\/App.tsx",
+                "codeOverrideIdentifier" : ".\/App.tsx_circle1",
                 "codeOverrideName" : "circle1",
                 "constraintsLocked" : false,
                 "deviceType" : null,
@@ -245,6 +250,12 @@
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 12,
                 "heightType" : 0,
                 "id" : "iVqOpu37e",
@@ -292,8 +303,8 @@
                 ],
                 "clip" : false,
                 "codeOverrideEnabled" : true,
-                "codeOverrideFile" : ".\/Page.tsx",
-                "codeOverrideIdentifier" : ".\/Page.tsx_circle2",
+                "codeOverrideFile" : ".\/App.tsx",
+                "codeOverrideIdentifier" : ".\/App.tsx_circle2",
                 "codeOverrideName" : "circle2",
                 "constraintsLocked" : false,
                 "deviceType" : null,
@@ -307,6 +318,12 @@
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 12,
                 "heightType" : 0,
                 "id" : "SQubjFHQm",
@@ -354,8 +371,8 @@
                 ],
                 "clip" : false,
                 "codeOverrideEnabled" : true,
-                "codeOverrideFile" : ".\/Page.tsx",
-                "codeOverrideIdentifier" : ".\/Page.tsx_circle3",
+                "codeOverrideFile" : ".\/App.tsx",
+                "codeOverrideIdentifier" : ".\/App.tsx_circle3",
                 "codeOverrideName" : "circle3",
                 "constraintsLocked" : false,
                 "deviceType" : null,
@@ -369,6 +386,12 @@
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 12,
                 "heightType" : 0,
                 "id" : "pZTMoA6VP",
@@ -494,6 +517,12 @@
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 48,
                 "heightType" : 0,
                 "id" : "xRIkJi_6K",
@@ -573,9 +602,9 @@
             ],
             "clip" : false,
             "codeOverrideEnabled" : true,
-            "codeOverrideFile" : ".\/Page.tsx",
-            "codeOverrideIdentifier" : ".\/Page.tsx_backward",
-            "codeOverrideName" : "backward",
+            "codeOverrideFile" : ".\/App.tsx",
+            "codeOverrideIdentifier" : ".\/App.tsx_LeftButton",
+            "codeOverrideName" : "LeftButton",
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
@@ -588,6 +617,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 48,
             "heightType" : 0,
             "id" : "vvS3d1sge",
@@ -643,10 +678,7 @@
 
                 ],
                 "clip" : false,
-                "codeOverrideEnabled" : true,
-                "codeOverrideFile" : ".\/Page.tsx",
-                "codeOverrideIdentifier" : ".\/Page.tsx_forward",
-                "codeOverrideName" : "forward",
+                "codeOverrideEnabled" : false,
                 "constraintsLocked" : false,
                 "deviceType" : null,
                 "exportOptions" : [
@@ -659,6 +691,12 @@
                 "fillImagePixelWidth" : null,
                 "fillImageResize" : "fill",
                 "fillType" : "color",
+                "guidesX" : [
+
+                ],
+                "guidesY" : [
+
+                ],
                 "height" : 48,
                 "heightType" : 0,
                 "id" : "qlud7ZrAR",
@@ -737,7 +775,10 @@
               }
             ],
             "clip" : false,
-            "codeOverrideEnabled" : false,
+            "codeOverrideEnabled" : true,
+            "codeOverrideFile" : ".\/App.tsx",
+            "codeOverrideIdentifier" : ".\/App.tsx_RightButton",
+            "codeOverrideName" : "RightButton",
             "constraintsLocked" : false,
             "deviceType" : null,
             "exportOptions" : [
@@ -750,6 +791,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 48,
             "heightType" : 0,
             "id" : "r79mu7X5D",
@@ -836,6 +883,12 @@
           "widthFactor" : 0.5
         },
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 812,
         "heightType" : 0,
         "id" : "IUsvi_5YN",
@@ -854,7 +907,16 @@
         "opacity" : 1,
         "originalid" : null,
         "parentid" : "wJWDGDvrn",
-        "previewSettings" : null,
+        "previewSettings" : {
+          "__class" : "PreviewSettings",
+          "bezel" : false,
+          "deviceType" : "framer\/FramerAppleIPhoneXS",
+          "responsive" : false,
+          "rotate" : false,
+          "skin" : "",
+          "touch" : true,
+          "zoom" : -1
+        },
         "radius" : 0,
         "radiusBottomLeft" : 0,
         "radiusBottomRight" : 0,
@@ -945,6 +1007,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 496,
             "heightType" : 0,
             "id" : "KDdCpdSaz",
@@ -1090,6 +1158,12 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 666,
         "heightType" : 0,
         "id" : "K0yKcuk8_",
@@ -1199,6 +1273,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 496,
             "heightType" : 0,
             "id" : "pivA3M1oc",
@@ -1344,6 +1424,12 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 666,
         "heightType" : 0,
         "id" : "CJmLR1M5f",
@@ -1453,6 +1539,12 @@
             "fillImagePixelWidth" : null,
             "fillImageResize" : "fill",
             "fillType" : "color",
+            "guidesX" : [
+
+            ],
+            "guidesY" : [
+
+            ],
             "height" : 496,
             "heightType" : 0,
             "id" : "h6vBybwqs",
@@ -1598,6 +1690,12 @@
         "fillImagePixelWidth" : null,
         "fillImageResize" : "fill",
         "fillType" : "color",
+        "guidesX" : [
+
+        ],
+        "guidesY" : [
+
+        ],
         "height" : 666,
         "heightType" : 0,
         "id" : "o13IXI2oq",
@@ -1633,6 +1731,12 @@
         "widthType" : 0
       }
     ],
+    "guidesX" : [
+
+    ],
+    "guidesY" : [
+
+    ],
     "id" : "wJWDGDvrn",
     "name" : null,
     "originalid" : null,
@@ -1645,5 +1749,5 @@
     ],
     "visible" : false
   },
-  "version" : 52
+  "version" : 54
 }
